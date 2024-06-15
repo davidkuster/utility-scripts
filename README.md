@@ -1,9 +1,11 @@
 # utility-scripts
 A collection of miscellaneous utility scripts
 
-## git-statistics
+## [git-statistics](scripts/git-statistics.sh)
 
-See stats by dev on a Git repo (excluding binary files). This can be used to investigate productive time of day (morning vs afternoon) and also gauge overwork (nights and weekends).
+See stats by dev on a Git repo.
+
+This can be used to investigate productive time of day (morning vs afternoon) and also gauge overwork (nights and weekends).
 
 ### Usage
 
@@ -11,7 +13,7 @@ The script can be run from the root of a Git project. Alternatively the path to 
 
 ```sh
 $ git-statistics.sh
-$ git-statistics /path/to/repo
+$ git-statistics.sh /path/to/repo
 ```
 
 Example output:
